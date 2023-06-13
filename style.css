@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin:0;
+    
+}
+.main{
+    background-color: #008374;
+}
+.page_top{
+   
+    background-color: #01796c;  
+    overflow: hidden;
+    position:fixed;
+    width:100%;
+   
+}
+.page_top a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.page_top a.split{
+    float: right;
+}
+.nav {
+    margin-top: 35px;
+   
+}
+.nav a{
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    float: left;
+    font-size: 20px;
+    color:white;
+}
+.nav a:hover{
+    text-decoration:underline ;
+}
+.nav a.r{
+    float: right;
+
+}
+.nav a.title{
+    font-size: 30px;
+}
+.body{
+    display:flex;
+    flex-direction: row;
+}
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: white;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height:100%;
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .fotter{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #213343;
+  }
+  .fotter h2{
+    color:white;
+  }
+  .popular ,.free,.custom{
+    display:flex;
+    flex-direction: column;
+    
+    
+  }
+  .popular a,.custom a,.free a{
+    text-decoration: none;
+    color:white;
+    padding:10px;
+    
+  }
+  button{
+    font-size: 25px;
+    background-color:#008374;
+    padding:10px;
+    border-radius: 25px;
+    margin: 10px 10px;
+  }
+  button:hover{
+  background-color:#01796c;
+  cursor: pointer;
+  }
